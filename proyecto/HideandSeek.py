@@ -420,9 +420,6 @@ class SARSAAgent:
     def decay_epsilon(self):
         self.epsilon = max(self.epsilon * self.epsilon_decay, self.epsilon_min)
 
-import os
-import numpy as np
-
 def train_sarsa(episodes=50000, save_path="q_table_sarsa.npy",
                 alpha=0.1, gamma=0.95, epsilon=1.0,
                 epsilon_decay=0.9995, epsilon_min=0.05):
