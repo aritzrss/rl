@@ -5,3 +5,15 @@
 /pyvenv.cfg
 /share
 /lib64
+
+/.venv/
+/venv/
+/env/
+/ENV/
+/Scripts/
+/Lib/
+/Include/
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
